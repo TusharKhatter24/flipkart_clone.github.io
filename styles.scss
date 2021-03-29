@@ -12,11 +12,24 @@
 	}
 	
 }
+.below-nav{
+	ul{
+		text-align: center;
+		width: 100%;
+		align-content: center;
+		list-style-type: none;
+	}
+	li{
+		float: left;
+		margin: 10px 1.8em;
+	}
+}
 
 .about{
-	margin: 0px 1.7em;
+	background-color: white;
+	padding: 0px 1.7em;
 	h4{
-		opacity: .8;
+		opacity: .7;
 		font-weight: bold;
 		font-size: 0.95em;
 	}
