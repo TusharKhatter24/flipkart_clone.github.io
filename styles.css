@@ -9,14 +9,26 @@
     margin-top: 10px;
     width: 10em; }
 
-.below-nav ul {
-  text-align: center;
+.below-nav {
   width: 100%;
-  align-content: center;
-  list-style-type: none; }
-.below-nav li {
-  float: left;
-  margin: 10px 1.8em; }
+  min-height: 133px;
+  background-color: white; }
+  .below-nav ul {
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    list-style-type: none; }
+  .below-nav li {
+    float: left;
+    margin: 10px 1.6em; }
+
+.dod {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px 2px;
+  background-color: white;
+  max-width: 1100px;
+  min-height: 300px; }
 
 .about {
   background-color: white;
