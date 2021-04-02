@@ -28,12 +28,107 @@
 	}
 }
 .dod{
-	padding: 10px;
-	margin-bottom: 10px;
-	box-shadow: 0 0 15px 2px;
-	background-color: white;
-	max-width: 1100px;
-	min-height: 300px;
+	margin-left: 5px;
+	width: 100%;
+	.dodleft{
+		float: left;
+		padding: 10px;
+		margin-bottom: 10px;
+		box-shadow: 0 0 15px 2px;
+		background-color: white;
+		width: 1100px;
+		min-height: 370px;
+		.leftdown{
+			width: 100%;
+			.ld{
+				width: 20%;
+				float: left;
+				align-content: center;
+				img{
+					display: block;
+  					margin:20px auto 0;
+					height: 160px;
+				}
+			}
+			.shoes{
+				width: 20%;
+				float: left;
+				align-content: center;
+				img{
+					display: block;
+  					margin: 70px auto 0;
+				}
+			}
+		}
+	}
+	.dodright{
+		float: left;
+		padding: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		box-shadow: 0 0 15px 2px;
+		background-color: white;
+		width: 225px;
+		min-height: 370px;
+		img{
+			padding: 1px;
+			width: 200px;
+			height: 350px;
+		}
+	}
+}
+.next{
+	width: 100%;
+	margin-left: 5px;
+	.next3{
+		padding-right: 5px;
+		width: 446px;
+		float: left;
+		img{
+			width: 100%;
+		}
+	}
+}
+.trending{
+		margin:10px 5px 0;
+		width: 99%;
+		padding: 10px;
+		float: left;
+		box-shadow: 0 0 15px 2px;
+		max-height: 370px;
+		.down{
+			width: 100%;
+			.d{
+				width: 14.2%;
+				float: left;
+				align-content: center;
+				img{
+					display: block;
+  					margin:20px auto 0;
+					height: 50%;
+				}
+			}
+			.wallet{
+				width: 14.2%;
+				float: left;
+				align-content: center;
+				img{
+					display: block;
+  					margin:50px auto 0;
+					height: 50%;
+				}
+			}
+			.slippers{
+				width: 14.2%;
+				float: left;
+				align-content: center;
+				img{
+					display: block;
+  					margin: 80px auto 0;
+					height: 50%;
+				}
+			}
+		}
 }
 .about{
 	background-color: white;
