@@ -1,10 +1,13 @@
 .nav-bar{
 	background-color: #1976D2;
 	min-height: 3.6em;
-	img{
-		margin-left: 12em;
-		margin-botton: 30em;
-		width: 5em;
+	.logo{
+		margin: 5px 0 0 12em;
+		max-width: 100px;
+		float: left;
+		.flipkart{
+			width: 5em;
+		}
 	}
 	input{
 		margin-top: 10px;
@@ -25,6 +28,12 @@
 	li{
 		float: left;
 		margin: 10px 1.6em;
+		a{
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+		}
 	}
 }
 .dod{
@@ -48,6 +57,10 @@
 					display: block;
   					margin:20px auto 0;
 					height: 160px;
+					transform: scale(.97);
+				}
+				img:hover{
+    				transform: scale(1);
 				}
 			}
 			.shoes{
@@ -56,7 +69,11 @@
 				align-content: center;
 				img{
 					display: block;
-  					margin: 70px auto 0;
+  					margin: 70px auto 0;	
+					transform: scale(.97);
+				}
+				img:hover{
+    				transform: scale(1);
 				}
 			}
 		}
@@ -106,6 +123,10 @@
 					display: block;
   					margin:20px auto 0;
 					height: 50%;
+					transform: scale(0.9);
+				}
+				img:hover{
+					transform: scale(1);
 				}
 			}
 			.wallet{
@@ -116,6 +137,10 @@
 					display: block;
   					margin:50px auto 0;
 					height: 50%;
+					transform: scale(.9);
+				}
+				img:hover{
+					transform: scale(1);
 				}
 			}
 			.slippers{
@@ -126,6 +151,10 @@
 					display: block;
   					margin: 80px auto 0;
 					height: 50%;
+					transform: scale(.9);
+				}
+				img:hover{
+					transform: scale(1);
 				}
 			}
 		}
@@ -142,4 +171,44 @@
 		opacity: 0.8;
 		font-size: 0.7em;
 	}
+}
+
+/* Footer */
+footer{
+    background-color: #172337;
+    color: white;
+    padding-top: 3%;
+}
+
+.Footer h6{
+    color: #878787;
+    font-size: .8em;
+}
+
+.Footer > div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+.Footer a{
+    color: white;
+    line-height: 1.3rem;
+}
+
+.Footer p{
+    margin: 0;
+    font-size: .96em;
+    line-height: 1.2rem;
+}
+
+footer i{
+    color: gold;
+}
+
+footer span{
+    font-size: .75em;
+    cursor: pointer;
 }

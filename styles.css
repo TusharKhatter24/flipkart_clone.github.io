@@ -1,10 +1,12 @@
 .nav-bar {
   background-color: #1976D2;
   min-height: 3.6em; }
-  .nav-bar img {
-    margin-left: 12em;
-    margin-botton: 30em;
-    width: 5em; }
+  .nav-bar .logo {
+    margin: 5px 0 0 12em;
+    max-width: 100px;
+    float: left; }
+    .nav-bar .logo .flipkart {
+      width: 5em; }
   .nav-bar input {
     margin-top: 10px;
     width: 10em; }
@@ -21,6 +23,10 @@
   .below-nav li {
     float: left;
     margin: 10px 1.6em; }
+    .below-nav li a {
+      color: black; }
+    .below-nav li a:hover {
+      text-decoration: none; }
 
 .dod {
   margin-left: 5px;
@@ -42,14 +48,20 @@
         .dod .dodleft .leftdown .ld img {
           display: block;
           margin: 20px auto 0;
-          height: 160px; }
+          height: 160px;
+          transform: scale(0.97); }
+        .dod .dodleft .leftdown .ld img:hover {
+          transform: scale(1); }
       .dod .dodleft .leftdown .shoes {
         width: 20%;
         float: left;
         align-content: center; }
         .dod .dodleft .leftdown .shoes img {
           display: block;
-          margin: 70px auto 0; }
+          margin: 70px auto 0;
+          transform: scale(0.97); }
+        .dod .dodleft .leftdown .shoes img:hover {
+          transform: scale(1); }
   .dod .dodright {
     float: left;
     padding: 10px;
@@ -90,7 +102,10 @@
       .trending .down .d img {
         display: block;
         margin: 20px auto 0;
-        height: 50%; }
+        height: 50%;
+        transform: scale(0.9); }
+      .trending .down .d img:hover {
+        transform: scale(1); }
     .trending .down .wallet {
       width: 14.2%;
       float: left;
@@ -98,7 +113,10 @@
       .trending .down .wallet img {
         display: block;
         margin: 50px auto 0;
-        height: 50%; }
+        height: 50%;
+        transform: scale(0.9); }
+      .trending .down .wallet img:hover {
+        transform: scale(1); }
     .trending .down .slippers {
       width: 14.2%;
       float: left;
@@ -106,7 +124,10 @@
       .trending .down .slippers img {
         display: block;
         margin: 80px auto 0;
-        height: 50%; }
+        height: 50%;
+        transform: scale(0.9); }
+      .trending .down .slippers img:hover {
+        transform: scale(1); }
 
 .about {
   background-color: white;
@@ -118,3 +139,36 @@
   .about p {
     opacity: 0.8;
     font-size: 0.7em; }
+
+/* Footer */
+footer {
+  background-color: #172337;
+  color: white;
+  padding-top: 3%; }
+
+.Footer h6 {
+  color: #878787;
+  font-size: .8em; }
+
+.Footer > div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: .75em;
+  font-weight: 100; }
+
+.Footer a {
+  color: white;
+  line-height: 1.3rem; }
+
+.Footer p {
+  margin: 0;
+  font-size: .96em;
+  line-height: 1.2rem; }
+
+footer i {
+  color: gold; }
+
+footer span {
+  font-size: .75em;
+  cursor: pointer; }
